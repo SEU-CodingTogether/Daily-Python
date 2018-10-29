@@ -61,3 +61,21 @@ class Solution:
                 num=  num -1
                 continue
         return str
+
+
+def checkio(data):
+    result = Solution()
+    str_out = result.intToRoman(data)
+    # replace this for solution
+    return str_out
+
+if __name__ == '__main__':
+    # These "asserts" using only for self-checking and not necessary for auto-testing
+    assert checkio(6) == 'VI', '6'
+    assert checkio(76) == 'LXXVI', '76'
+    assert checkio(499) == 'CDXCIX', '499'
+    assert checkio(3888) == 'MMMDCCCLXXXVIII', '3888'
+    print('Done! Go Check!')
+
+
+        return str
