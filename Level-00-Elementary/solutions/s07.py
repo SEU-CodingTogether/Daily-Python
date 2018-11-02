@@ -32,3 +32,11 @@ I was nearly new
         'near': 0
     }
     print("Coding complete!")
+text = '''
+When I was One
+I had just begun
+When I was Two
+I was nearly new
+'''
+words = ['i', 'was', 'three', 'near']
+print(zip(words, map(text.lower().split().count, words)))
